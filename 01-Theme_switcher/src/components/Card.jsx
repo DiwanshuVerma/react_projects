@@ -4,7 +4,7 @@ export default function Card() {
                 <div id="img">
                     <img
                         className='rounded m-auto'
-                        src="src\assets\bike_image.webp"
+                        src="/assets/bike_image.webp"
                         alt="bike image" />
                 </div>
 
@@ -15,7 +15,7 @@ export default function Card() {
                 <div id="ratings">
                     <img
                         className='w-36 mb-4'
-                        src="src\assets\ratings.png" alt="" />
+                        src="/assets/ratings.png" alt="" />
                     {/* 4.5 */}
                 </div>
 
