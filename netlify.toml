@@ -1,0 +1,4 @@
+[build]
+  base    = "01-Theme_switcher"
+  publish = "dist"
+  command = "npm run build"
