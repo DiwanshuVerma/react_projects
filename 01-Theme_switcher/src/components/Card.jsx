@@ -1,9 +1,9 @@
 export default function Card() {
     return (
-            <div className='dark:bg-gray-800 dark:border-gray-700 border-2 p-6 flex flex-col gap-4 rounded text-2xl dark:text-white font-medium shadow-md'>
+            <div className='dark:bg-gray-800 dark:border-gray-700 border-2 p-6 flex flex-col gap-4 rounded sm:text-2xl dark:text-white font-medium shadow-md'>
                 <div id="img">
                     <img
-                        className='rounded m-auto'
+                        className='rounded m-auto w-64 sm:w-80'
                         src="/assets/bike_image.webp"
                         alt="bike image" />
                 </div>
@@ -21,7 +21,7 @@ export default function Card() {
 
                 <div id="price" className='flex justify-between items-center'>
                     <p className='font-bold'>₹ 16.90 - 17.70 Lakh*</p>
-                    <a href='https://www.bikedekho.com/suzuki/hayabusa' className='cursor-pointer font-light text-white bg-blue-800 p-2 rounded text-base'>View Offers</a>
+                    <a href='https://www.bikedekho.com/suzuki/hayabusa' className='cursor-pointer font-light text-white bg-blue-800 p-1 sm:p-2 rounded text-base'>View Offers</a>
                 </div>
             </div>
     )
