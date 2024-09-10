@@ -1,4 +1,14 @@
+# Configuration for 01-Theme_switcher
 [build]
   base    = "01-Theme_switcher"
   publish = "dist"
   command = "npm run build"
+
+[context."01-theme-switcher"]
+  publish = "01-Theme_switcher/dist"
+  command = "npm run build --prefix 01-Theme_switcher"
+
+# Configuration for 02-Rock-paper-scissors
+[context."02-rock-paper-scissors"]
+  publish = "02-Rock-paper-scissors/dist"
+  command = "npm run build --prefix 02-Rock-paper-scissors"
